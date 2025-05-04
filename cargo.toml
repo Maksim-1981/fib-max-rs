@@ -2,13 +2,14 @@
 name = "fib_max_rs"
 version = "0.1.0"
 authors = ["Iv Maskim <maivkin@gmail.com>"]
-edition = "2018"
-
-[dependencies]
-[dependencies.pyo3]
-version = "0.13.2"
-features = ["extension-module"]
+edition = "2021"
 
 [lib]
 name = "fib_max_rs"
 crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+
+
+
