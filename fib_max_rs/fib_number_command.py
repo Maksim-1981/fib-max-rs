@@ -1,5 +1,5 @@
 import argparse
-from .flitton_fib_rs import fibonacci_number
+from .fib_max_rs import fibonacci_number
 def fib_number_command() -> None:
     parser = argparse.ArgumentParser(
          description='Calculate Fibonacci numbers')
